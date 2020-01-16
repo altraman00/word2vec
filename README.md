@@ -48,7 +48,6 @@ Word2Vec中2个distance方法中，min = result.last().score; 应该放在result
 
 
 
-```
    IEDA 添加gitignore插件
    忽略 idea相关的文件提交，如：*.iml
    如果在添加忽略文件前idea文件已经被git跟踪，那么即使添加了gitignore文件配置，idea文件也一样会被识别，不会被过滤，
@@ -60,4 +59,4 @@ Word2Vec中2个distance方法中，min = result.last().score; 应该放在result
    
    再次提交即不再被跟踪
    
-```
+
