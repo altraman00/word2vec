@@ -53,9 +53,11 @@ Word2Vec中2个distance方法中，min = result.last().score; 应该放在result
    如果在添加忽略文件前idea文件已经被git跟踪，那么即使添加了gitignore文件配置，idea文件也一样会被识别，不会被过滤，
    
    此刻需要 清空git缓存
-   git rm -r --cached .
-   git add .
-   git commit -m 'update .gitignore'
+   ```
+      git rm -r --cached .
+      git add .
+      git commit -m 'update .gitignore'
+   ```
    
    再次提交即不再被跟踪
    
