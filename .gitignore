@@ -110,3 +110,5 @@ fabric.properties
 rebel.xml
 .rebel-remote.xml
 .rebel-remote.xml.bak
+!/Word2VEC_java.iml
+/Word2VEC_java.iml
